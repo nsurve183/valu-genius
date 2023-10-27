@@ -2,13 +2,16 @@
 import './App.css'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import './Scss/main.css'
+import UpperNavbar from './Components/UpperNavbar'
+import Navbar from './Components/Navbar'
+
 
 function App() {
   return (
     <>
       <Router>
-        <h1 className='text'>Hello World</h1>
-        <h2 className='text1'>Hello Nik</h2>
+        <UpperNavbar />
+        <Navbar />
         <Routes>
 
         </Routes>

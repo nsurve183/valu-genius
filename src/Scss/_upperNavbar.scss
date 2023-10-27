@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.uppernav{
+    background-color: rgb(17, 1, 82, 1);
+    padding: 10px 0px;
+    .container{
+        .d-flex{
+            .phoneIcon{
+                color: red;
+                font-size: 20px;
+                cursor: pointer;
+            }
+            .numberField{
+                font-family: 'Roboto', sans-serif;
+                font-size: 16px;
+                color: white;
+                cursor: pointer;
+                &:hover{
+                    color: orange;
+                }
+            }
+        }
+    }
+    
+.icons_list{
+    .icons{
+        font-size: 20px;
+        color: white;
+        cursor: pointer;
+    &:hover{
+        color: orange;
+    }
+    }
+}
+}
+

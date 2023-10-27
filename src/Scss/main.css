@@ -1,8 +1,59 @@
-.text {
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@700;800&family=Roboto:wght@300&display=swap");
+.uppernav {
+  background-color: rgb(17, 1, 82);
+  padding: 10px 0px;
+}
+.uppernav .container .d-flex .phoneIcon {
   color: red;
+  font-size: 20px;
+  cursor: pointer;
+}
+.uppernav .container .d-flex .numberField {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+}
+.uppernav .container .d-flex .numberField:hover {
+  color: orange;
+}
+.uppernav .icons_list .icons {
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+.uppernav .icons_list .icons:hover {
+  color: orange;
 }
 
-.text1 {
-  color: green;
-  font-size: 45px;
+.container .navbar .navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+.container .navbar .navbar-toggler {
+  border: none;
+  background-color: orangered;
+  font-size: 15px;
+  padding: 5px 8px;
+}
+.container .navbar .navbar-nav .nav-link {
+  font-size: 17px;
+  font-weight: 800;
+  color: black;
+  font-family: "Mulish", sans-serif;
+  margin-inline: 10px;
+}
+.container .navbar .navbar-nav .nav-link:hover {
+  color: orange;
+}
+
+@media (max-width: 500px) {
+  .container .navbar .navbar-brand .img_fluid {
+    width: 170px;
+    height: 94px;
+  }
+  .container .navbar .navbar-nav .nav-link {
+    font-size: 16px;
+  }
 }/*# sourceMappingURL=main.css.map */

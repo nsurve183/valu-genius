@@ -7,7 +7,7 @@ const Navbar = () => {
     <div>
       <div className="container">
         <nav className="navbar navbar-expand-lg navbar-light">
-          <Link className="navbar-brand">
+          <Link className="navbar-brand" to='/'>
             <img src="../../public/logo.webp" className="img_fluid" alt="pic not found" />
           </Link>
           <button

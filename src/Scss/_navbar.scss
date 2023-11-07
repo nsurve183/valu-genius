@@ -3,9 +3,6 @@
 
 .container{
     .navbar{
-        .navbar-brand{
-
-        }
         .navbar-toggler:focus{
             outline: none;
             box-shadow: none;
@@ -20,7 +17,7 @@
                 .nav-link{
                     font-size: 17px;
                     font-weight: 800;
-                    color: black;
+                    color: rgb(17, 1, 82, 1);
                     font-family: 'Mulish', sans-serif;
                     margin-inline: 10px;
                     &:hover{

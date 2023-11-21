@@ -1,10 +1,9 @@
 
-import './App.css'
+import React from "react"
+import UpperNavbar from "./Components/UpperNavbar"
+import Navbar from "./Components/Navbar"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-import './Scss/main.css'
-import UpperNavbar from './Components/UpperNavbar'
-import Navbar from './Components/Navbar'
-import Home from './Pages/Home'
+import  Home  from "./Pages/Home.jsx"
 
 
 function App() {
@@ -14,7 +13,7 @@ function App() {
         <UpperNavbar />
         <Navbar />
         <Routes>
-          <Route exact path='/' Component={Home}/>
+        <Route exact path="/" Component={Home} />
         </Routes>
       </Router>
     </>

@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@700;800&family=Roboto:wght@300&display=swap");
+.container .navbar .navbar-brand .img_fluid {
+  width: 20rem;
+}
+.container .navbar .navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+.container .navbar .navbar-toggler {
+  border: none;
+  background-color: orangered;
+  font-size: 1.5rem;
+  padding: 0.5rem 0.8rem;
+}
+.container .navbar .navbar-nav .nav-link {
+  font-size: 1.7rem;
+  font-weight: 800;
+  color: rgb(17, 1, 82);
+  font-family: "Mulish", sans-serif;
+  margin-inline: 1rem;
+}
+.container .navbar .navbar-nav .nav-link:hover {
+  color: orange;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .container .navbar .navbar-brand .img_fluid {
+    width: 25rem;
+  }
+  .container .navbar .navbar-toggler {
+    font-size: 2.5rem;
+  }
+  .container .navbar .navbar-nav .nav-link {
+    font-size: 2.4rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .container .navbar .navbar-brand .img_fluid {
+    width: 30rem;
+  }
+  .container .navbar .navbar-toggler {
+    font-size: 3rem;
+  }
+  .container .navbar .navbar-nav .nav-link {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 575px) {
+  .container .navbar .navbar-brand .img_fluid {
+    width: 27rem;
+  }
+  .container .navbar .navbar-toggler {
+    font-size: 2.5rem;
+  }
+  .container .navbar .navbar-nav .nav-link {
+    font-size: 2.8rem;
+  }
+}/*# sourceMappingURL=navbar.css.map */

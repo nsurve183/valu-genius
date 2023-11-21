@@ -1,36 +1,116 @@
+html {
+  font-size: 62.5%;
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-.uppernav{
-    background-color: rgb(17, 1, 82, 1);
-    padding: 10px 0px;
+.upperSection{
+    width: 100%;
+    padding: 1rem;
+    background-color: rgb(4, 4, 80);
+
     .container{
-        .d-flex{
-            .phoneIcon{
-                color: red;
-                font-size: 20px;
-                cursor: pointer;
+     .contentSection{
+        .content{
+            display: flex;
+            align-items: center;
+            .icon{
+                color: orangered;
+                font-size: 2rem;
             }
             .numberField{
-                font-family: 'Roboto', sans-serif;
-                font-size: 16px;
+                font-size: 1.8rem;
                 color: white;
-                cursor: pointer;
+                margin-bottom: 0;
+
                 &:hover{
-                    color: orange;
+                    color: orangered;
                 }
             }
         }
     }
-    
-.icons_list{
-    .icons{
-        font-size: 20px;
-        color: white;
-        cursor: pointer;
-    &:hover{
-        color: orange;
+    .iconlist{
+        .icons{
+            font-size: 2.5rem;
+            color: white;
+            &:hover{
+                color: orangered;
+            }
+        }
     }
-    }
-}
+     }
 }
 
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px){
+    .upperSection{  
+        .container{
+         .contentSection{
+            .content{
+                .icon{
+                    color: orangered;
+                    font-size: 2.5rem;
+                }
+                .numberField{
+                    font-size: 2.5rem;
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .iconlist{
+            .icons{
+                font-size: 3rem;
+            }
+        }
+         }
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767px){
+    .upperSection{  
+        .container{
+         .contentSection{
+            .content{
+                .icon{
+                    color: orangered;
+                    font-size: 2.5rem;
+                }
+                .numberField{
+                    font-size: 2.5rem;
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .iconlist{
+            .icons{
+                font-size: 3rem;
+            }
+        }
+         }
+    }
+}
+
+
+@media (max-width: 575px){
+    .upperSection{  
+        .container{
+         .contentSection{
+            .content{
+                .icon{
+                    font-size: 4rem;
+                }
+                .numberField{
+                    font-size: 3rem;
+                }
+            }
+        }
+        .iconlist{
+            .icons{
+                font-size: 4rem;
+            }
+        }
+         }
+    }
+}

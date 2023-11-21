@@ -1,11 +1,11 @@
 import React from "react";
+import "../Scss/Navbar/navbar.css";
 import { Link } from "react-router-dom";
-
 
 const Navbar = () => {
   return (
     <div>
-      <div className="container">
+    <div className="container">
         <nav className="navbar navbar-expand-lg navbar-light">
           <Link className="navbar-brand" to='/'>
             <img src="../../public/logo.webp" className="img_fluid" alt="pic not found" />

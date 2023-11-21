@@ -1,0 +1,102 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700;800&family=Roboto:wght@300&display=swap');
+
+
+
+.container{
+    .navbar{
+        .navbar-brand{
+            .img_fluid{
+                width: 20rem;
+            }
+        }
+        .navbar-toggler:focus{
+            outline: none;
+            box-shadow: none;
+        }
+        .navbar-toggler{
+            border: none;
+            background-color: orangered;
+            font-size: 1.5rem;
+            padding: .5rem .8rem;
+        }
+            .navbar-nav{
+                .nav-link{
+                    font-size: 1.7rem;
+                    font-weight: 800;
+                    color: rgb(17, 1, 82, 1);
+                    font-family: 'Mulish', sans-serif;
+                    margin-inline: 1rem;
+                    &:hover{
+                        color: orange;
+                    }
+                }
+            }
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px){
+    .container{
+        .navbar{
+            .navbar-brand{
+                .img_fluid{
+                    width: 25rem;
+                }
+            }
+            .navbar-toggler{
+                font-size: 2.5rem;
+            }
+                .navbar-nav{
+                    .nav-link{
+                        font-size: 2.4rem;
+                    }
+                }
+        }
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+    .container{
+        .navbar{
+            .navbar-brand{
+                .img_fluid{
+                    width: 30rem;
+                }
+            }
+            .navbar-toggler{
+                font-size: 3rem;
+            }
+                .navbar-nav{
+                    .nav-link{
+                        font-size: 3rem;
+                    }
+                }
+        }
+    }
+}
+
+@media (max-width: 575px){
+    .container{
+        .navbar{
+            .navbar-brand{
+                .img_fluid{
+                    width: 27rem;
+                }
+            }
+            .navbar-toggler{
+                font-size: 2.5rem;
+            }
+                .navbar-nav{
+                    .nav-link{
+                        font-size: 2.8rem;
+                    }
+                }
+        }
+    }
+}
+
+
+
+

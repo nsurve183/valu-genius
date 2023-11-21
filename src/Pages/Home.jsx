@@ -1,12 +1,13 @@
 
 
 import React from 'react'
-import InfoCarousel from './InfoCarousel'
+import Banner from './Banner'
+
 
 const Home = () => {
   return (
     <div>
-        <InfoCarousel />
+        <Banner />
     </div>
   )
 }

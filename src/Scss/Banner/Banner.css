@@ -1,6 +1,6 @@
 .bannerSection {
   min-width: 100%;
-  min-height: 45rem;
+  min-height: 45vh;
 }
 .bannerSection .carousel {
   width: 100%;
@@ -23,7 +23,7 @@
   transform: translateY(-50%);
   background-color: transparent;
   border: none;
-  width: 42%;
+  width: 48%;
 }
 .bannerSection .carousel .carousel-inner .carousel-item .card .card-body {
   line-height: 10rem;
@@ -164,4 +164,4 @@
     width: 8%;
     height: 20%;
   }
-}/*# sourceMappingURL=Banner.css.map */
+}/*# sourceMappingURL=banner.css.map */

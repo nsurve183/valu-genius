@@ -1,0 +1,113 @@
+.container .welcome_title {
+  position: relative;
+  padding: 3rem 0rem;
+  font-size: 3.8rem;
+  font-family: "Mulish", sans-serif;
+  margin-bottom: 1rem;
+  color: rgb(17, 1, 82);
+}
+.container .welcome_title::before {
+  position: absolute;
+  content: "";
+  width: 3rem;
+  height: 0.5rem;
+  background-color: orangered;
+  bottom: 0.4rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.container .welcome_para {
+  font-size: 1.6rem;
+}
+.container .card {
+  text-decoration: none;
+}
+.container .card .imgSection {
+  width: 8rem;
+  height: 8rem;
+  border: 2px solid orangered;
+  display: grid;
+  place-items: center;
+  border-radius: 100%;
+}
+.container .card .imgSection .img-fluid {
+  width: 3.5rem;
+}
+.container .card .card-body .card-title {
+  font-size: 2rem;
+  color: rgb(17, 1, 82);
+  margin-bottom: 1rem;
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+}
+.container .card .card-body .card-title:hover {
+  color: orange;
+}
+.container .card .card-body .card-text {
+  font-size: 1.6rem;
+  color: gray;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .container .welcome_title {
+    position: relative;
+    padding: 3rem 0rem;
+    font-size: 3.8rem;
+    margin-bottom: 1rem;
+  }
+  .container .welcome_para {
+    font-size: 2.5rem;
+  }
+  .container .card .imgSection {
+    width: 8rem;
+    height: 8rem;
+  }
+  .container .card .card-body .card-title {
+    font-size: 2.9rem;
+  }
+  .container .card .card-body .card-text {
+    font-size: 2.4rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .container .welcome_title {
+    position: relative;
+    padding: 3rem 0rem;
+    font-size: 3.8rem;
+    margin-bottom: 1rem;
+  }
+  .container .welcome_para {
+    font-size: 3rem;
+  }
+  .container .card .imgSection {
+    width: 10rem;
+    height: 10rem;
+  }
+  .container .card .imgSection .img-fluid {
+    width: 4rem;
+  }
+  .container .card .card-body .card-title {
+    font-size: 3.5rem;
+  }
+  .container .card .card-body .card-text {
+    font-size: 2.9rem;
+  }
+}
+@media (max-width: 575px) {
+  .container .welcome_para {
+    font-size: 3.1rem;
+  }
+  .container .card .imgSection {
+    width: 10rem;
+    height: 10rem;
+  }
+  .container .card .imgSection .img-fluid {
+    width: 4rem;
+  }
+  .container .card .card-body .card-title {
+    font-size: 3.3rem;
+  }
+  .container .card .card-body .card-text {
+    font-size: 2.9rem;
+  }
+}/*# sourceMappingURL=welcome.css.map */

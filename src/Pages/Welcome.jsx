@@ -29,6 +29,7 @@ const Welcome = () => {
 ]
   return (
     <div>
+      <div className="welcomeSection">
       <div className="container mt-sm-5">
         <div className="row d-flex justify-content-center align-items-center text-center">
           <h1 className="welcome_title">Welcome to ValuGenius</h1>
@@ -57,6 +58,7 @@ const Welcome = () => {
           </div>
           })}
         </div>
+      </div>
       </div>
     </div>
   );

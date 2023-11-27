@@ -37,6 +37,7 @@
                          100%{transform: translateX(0rem); opacity: 1;}
                          }
                         }
+                       .bannerbtn{
                         .btn-primary{
                             padding: .7rem 2rem;
                             font-size: 1.7rem;
@@ -51,6 +52,15 @@
                             font-size: 3rem;
                             color: orangered;
                         }
+
+                        &:hover .rightIcon{
+                            color: rgb(3, 3, 77);
+                        }
+        
+                        &:hover .btn-primary{
+                            background-color: orangered;
+                        }
+                       }
                     }
                 }
                 

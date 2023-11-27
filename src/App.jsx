@@ -4,6 +4,7 @@ import UpperNavbar from "./Components/UpperNavbar"
 import Navbar from "./Components/Navbar"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import  Home  from "./Pages/Home.jsx"
+import Footer from "./Components/Footer.jsx"
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Routes>
         <Route exact path="/" Component={Home} />
         </Routes>
+        <Footer />
       </Router>
     </>
   )

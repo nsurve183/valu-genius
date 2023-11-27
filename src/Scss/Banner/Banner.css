@@ -44,7 +44,7 @@
     opacity: 1;
   }
 }
-.bannerSection .carousel .carousel-inner .carousel-item .card .card-body .btn-primary {
+.bannerSection .carousel .carousel-inner .carousel-item .card .card-body .bannerbtn .btn-primary {
   padding: 0.7rem 2rem;
   font-size: 1.7rem;
   font-weight: 500;
@@ -54,9 +54,15 @@
   animation: anim 4s alternate;
   animation-timing-function: ease-in-out;
 }
-.bannerSection .carousel .carousel-inner .carousel-item .card .card-body .rightIcon {
+.bannerSection .carousel .carousel-inner .carousel-item .card .card-body .bannerbtn .rightIcon {
   font-size: 3rem;
   color: orangered;
+}
+.bannerSection .carousel .carousel-inner .carousel-item .card .card-body .bannerbtn:hover .rightIcon {
+  color: rgb(3, 3, 77);
+}
+.bannerSection .carousel .carousel-inner .carousel-item .card .card-body .bannerbtn:hover .btn-primary {
+  background-color: orangered;
 }
 .bannerSection .carousel .carousel-control-prev {
   position: absolute;

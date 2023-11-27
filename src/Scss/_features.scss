@@ -33,7 +33,7 @@
                 }
             }
             .card-body{
-                padding: 0;
+                padding: 0 0 0 .4rem;
                 .card-text{
                     font-size: 1.6rem;
                     padding: 0 0 0 0.5rem;
@@ -90,15 +90,16 @@
             }
             .card{
                 .fetureIcon{
-                    width: 14rem;
-                    height: 14rem;
+                    width: 12rem;
+                    height: 12rem;
                     .calculator{
-                        font-size: 5rem;
+                        font-size: 4rem;
                     }
                 }
                 .card-body{
                     .card-text{
                         font-size: 3rem;
+                        padding-left: 2rem;
                     }
                 }
             }

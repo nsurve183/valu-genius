@@ -1,0 +1,240 @@
+
+
+.teamSection{
+    min-width: 100%;
+    background-color: rgba(200,215,221,0.18);
+    padding: 4rem 5rem;
+    .container{
+      .main_row{
+        .card{
+            background-color: transparent;
+            border: 1px solid black;
+            padding: 3rem 1rem 5.9rem .8rem; 
+          .card-body{  
+            .team_title{
+                font-size: 3.5rem;
+                font-weight: 800;
+                position: relative;
+                font-family: 'Mulish', 'sans-serif';
+                color: rgb(3, 3, 77);
+                margin-bottom: 4rem;
+                &::before{
+                    content: '';
+                    position: absolute;
+                    bottom: -1rem;
+                    left: 0;
+                    width: 2.4rem;
+                    height: .5rem;
+                    background-color: orangered;
+                    
+                }
+            }
+            .team_text{
+                font-size: 1.6rem;
+                color: grey;
+                margin-bottom: 3rem;
+            }
+
+            .btnsection{
+                .btn_primary{
+                    padding: .5rem .6rem .6rem 2rem;
+                    font-size: 1.9rem;
+                    font-weight: 500;
+                    background-color: rgb(3, 3, 77);
+                    border: 0;
+                    border-radius: .4rem;
+                    color: white;
+                    font-family: 'Mulish', 'sans-serif';
+                  
+                }
+                .righticon{
+                    font-size: 3rem;
+                    color: orangered;
+                }
+
+                &:hover .righticon{
+                    color: rgb(3, 3, 77);
+                }
+
+                &:hover .btn_primary{
+                    background-color: orangered;
+                }
+            }
+          }
+        }
+
+        .card1{
+            .card_body{
+                background-color: rgb(3, 3, 77);
+                padding: .8rem 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                .member_name{
+                    font-size: 2rem;
+                    color: white;
+                    font-family: 'Mulish', 'sans-serif';
+                }
+                .designation{
+                    font-size: 1.5rem;
+                    color: orangered;
+                }
+
+                &:hover .member_name {
+                    color:  rgb(3, 3, 77);
+                } 
+                
+                &:hover .designation {
+                    color:  rgb(3, 3, 77);
+                } 
+
+                &:hover{
+                    background-color: orangered;
+                }
+            }
+        }
+      }
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px){
+    .teamSection{
+        .container{
+         .main_row{
+            .card{
+                padding: 2rem 1rem 2rem 2rem;
+              .card-body{   
+                .team_title{
+                    font-size: 4rem;
+                    margin-bottom: 4rem;
+                    &::before{
+                        bottom: -1rem;
+                        width: 3rem;
+                        height: .7rem;
+                    }
+                }
+                .team_text{
+                    font-size: 2.5rem;
+                    margin-bottom: 3rem;
+                }
+                .btnsection{
+                    .btn_primary{
+                        padding: .5rem .6rem .6rem 2rem;
+                        font-size: 2.2rem;
+                        font-weight: 500;       
+                    }
+                    .righticon{
+                        font-size: 4rem;
+                    }
+                }
+              }
+            }
+    
+            .card1{
+                .card_body{
+                    .member_name{
+                        font-size: 2.8rem;
+                    }
+                    .designation{
+                        font-size: 1.9rem;
+                    }
+                }
+            }
+         }
+        }
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+    .teamSection{
+        .container{
+         .main_row{
+            margin-right: 5rem;
+            .card{
+                padding: 3rem 1rem 4rem 3rem;
+              .card-body{   
+                .team_title{
+                    font-size: 4.5rem;
+                    &::before{
+                        bottom: -1rem;
+                        width: 3.5rem;
+                        height: .8rem;
+                    }
+                }
+                .team_text{
+                    font-size: 2.8rem;
+                }
+                .btnsection{
+                    .btn_primary{
+                        padding: .5rem .6rem .6rem 2rem;
+                        font-size: 2.6rem;
+                        font-weight: 500;       
+                    }
+                    .righticon{
+                        font-size: 4.5rem;
+                    }
+                }
+              }
+            }
+    
+            .card1{
+                .card_body{
+                padding: 1rem 5rem;
+                    .member_name{
+                        font-size: 4rem;
+                        padding: .8rem 0;
+                    }
+                    .designation{
+                        font-size: 2.2rem;
+                    }
+                }
+            }
+         }
+        }
+    }  
+}
+
+@media (max-width: 575px){
+    .teamSection{
+        .container{
+         .main_row{
+            .card{
+             padding: 3rem 1rem 4rem 3rem;
+                .card-body{   
+                  .team_title{
+                      font-size: 4.5rem;
+                      &::before{
+                          height: .9rem;
+                      }
+                  }
+                  .team_text{
+                      font-size: 3rem;
+                  }
+                  .btnsection{
+                      .btn_primary{
+                          font-size: 3rem;      
+                      }
+                      .righticon{
+                          font-size: 5rem;
+                      }
+                  }
+                }
+              }
+      
+              .card1{
+                  .card_body{
+                      .member_name{
+                          font-size: 3.5rem;
+                          padding: .8rem 0;
+                      }
+                      .designation{
+                          font-size: 2.8rem;
+                      }
+                  }
+              }
+         }
+        }
+    }  
+}

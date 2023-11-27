@@ -1,90 +1,97 @@
 
 
-.container{
-    .welcome_title{
-        position: relative;
-        padding: 3rem 0rem;
-        font-size: 3.8rem;
-        font-family: 'Mulish', sans-serif;
-        margin-bottom: 1rem;
-        color: rgb(17, 1, 82, 1);
-        &::before{
-            position: absolute;
-            content: "";
-            width: 3rem;
-            height: .5rem;
-            background-color: orangered;
-            bottom: .4rem;
-            left: calc(100% - 50%);
-            transform: translateX(-50%);
-        }
-    }
-    .welcome_para{
-        font-size: 1.6rem;
-    }
-
-    .card{
-        text-decoration: none;
-        .imgSection{
-            width: 8rem;
-            height: 8rem;
-            border: 2px solid orangered;
-            display: grid;
-            place-items: center;
-            border-radius: 100%;
-            .img-fluid{
-                width: 3.5rem;
+.welcomeSection{
+    .container{
+        .welcome_title{
+            position: relative;
+            padding: 3rem 0rem;
+            font-size: 3.8rem;
+            font-family: 'Mulish', sans-serif;
+            margin-bottom: 1rem;
+            color: rgb(17, 1, 82, 1);
+            &::before{
+                position: absolute;
+                content: "";
+                width: 3rem;
+                height: .5rem;
+                background-color: orangered;
+                bottom: .4rem;
+                left: calc(100% - 50%);
+                transform: translateX(-50%);
             }
         }
-        .card-body{
-            .card-title{
-                font-size: 2rem;
-                color: rgb(17, 1, 82, 1);
-                margin-bottom: 1rem;
-                font-family: 'Mulish', sans-serif;
-                font-weight: 700;
-                &:hover{
-                    color: orange;
+        .welcome_para{
+            font-size: 1.6rem;
+        }
+    
+        .card{
+            text-decoration: none;
+            .imgSection{
+                width: 8rem;
+                height: 8rem;
+                border: 2px solid orangered;
+                display: grid;
+                place-items: center;
+                border-radius: 100%;
+                .img-fluid{
+                    width: 3.5rem;
                 }
             }
-            .card-text{
-                font-size: 1.6rem;
-                color: gray;
+            .card-body{
+                .card-title{
+                    font-size: 2rem;
+                    color: rgb(17, 1, 82, 1);
+                    margin-bottom: 1rem;
+                    font-family: 'Mulish', sans-serif;
+                    font-weight: 700;
+                    &:hover{
+                        color: orange;
+                    }
+                }
+                .card-text{
+                    font-size: 1.6rem;
+                    color: gray;
+                }
             }
         }
     }
 }
 
 @media (min-width: 768px) and (max-width: 991px){
-    .container{
-        .welcome_title{
-            position: relative;
-            padding: 3rem 0rem;
-            font-size: 3.8rem;
-            margin-bottom: 1rem;
-        }
-        .welcome_para{
-            font-size: 2.5rem;
-        }
-        .card{
-            .imgSection{
-                width: 8rem;
-                height: 8rem;
+    .welcomeSection{
+        .container{
+            .welcome_title{
+                position: relative;
+                font-size: 3.8rem;
+                margin-bottom: 1rem;
             }
-            .card-body{
-                .card-title{
-                    font-size: 2.9rem;
+            .welcome_para{
+                font-size: 2.5rem;
+            }
+            .card{
+                .imgSection{
+                    width: 10rem;
+                    height: 10rem;
+
+                    .img-fluid{
+                        width: 4rem;
+                    }
                 }
-                .card-text{
-                    font-size: 2.4rem;
+                .card-body{
+                    .card-title{
+                        font-size: 2.9rem;
+                    }
+                    .card-text{
+                        font-size: 2.4rem;
+                    }
                 }
             }
         }
     }
-   
 }
 
 @media (min-width: 576px) and (max-width: 767px){
+   .welcomeSection{
     .container{
         .welcome_title{
             position: relative;
@@ -97,11 +104,11 @@
         }
         .card{
             .imgSection{
-                width: 10rem;
-                height: 10rem;
+                width: 12rem;
+                height: 12rem;
 
                 .img-fluid{
-                    width: 4rem;
+                    width: 5rem;
                 }
             }
             .card-body{
@@ -114,9 +121,11 @@
             }
         }
     }
+   }
 }
 
 @media (max-width: 575px){
+  .welcomeSection{
     .container{
         .welcome_para{
             font-size: 3.1rem;
@@ -131,6 +140,7 @@
                 }
             }
             .card-body{
+                padding: 0 4rem;
                 .card-title{
                     font-size: 3.3rem;
                 }
@@ -140,4 +150,5 @@
             }
         }
     }
+  }
 }

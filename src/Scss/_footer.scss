@@ -1,0 +1,223 @@
+.footerSection {
+  margin-top: 5rem;
+  padding: 4rem 5rem;
+  background-color: #071c45;
+  .about_card {
+    background-color: transparent;
+    .about_title {
+      font-size: 2.5rem;
+      color: white;
+      position: relative;
+      font-family: "Mulish", "sans-serif";
+      margin-bottom: 4rem;
+      &:before {
+        position: absolute;
+        bottom: -1.6rem;
+        left: 0;
+        content: "";
+        width: 3rem;
+        height: 0.5rem;
+        background-color: orangered;
+      }
+    }
+    .about_text{
+        color: #696a99;
+        font-size: 1.6rem;
+    }
+  }
+  .service_title {
+    font-size: 2.5rem;
+    color: white;
+    position: relative;
+    font-family: "Mulish", "sans-serif";
+    margin-bottom: 4rem;
+    &:before {
+      position: absolute;
+      bottom: -1.6rem;
+      left: 0;
+      content: "";
+      width: 3rem;
+      height: 0.5rem;
+      background-color: orangered;
+    }
+  }
+  .service_list{
+    list-style: none;
+    padding: 0 2rem 0 0;
+   .service_link{
+    display: flex;
+    align-items: first baseline;
+    .list_icon{
+        font-size: 1.8rem;
+        color: orangered;
+    }
+    .service_text{
+        font-size: 1.8rem;
+        color: #696a99;
+        margin-bottom: 2rem;
+
+        &:hover{
+            color: orangered;
+        }
+    }
+    .ficons, .iicons, .licons{
+        color:#696a99;
+        font-size: 2.6rem;
+
+        &:hover{
+            color: orangered;
+        }
+    }   
+   }  
+  }
+}
+.footerContent{
+  background-color: rgba(1, 1, 52,1);
+  padding: 1.3rem 5rem;
+  .container{
+    .footerText{
+      font-size: 1.6rem;
+      color: #a1a1b3;
+    }
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px){
+    .footerSection {
+        .about_card {
+          background-color: transparent;
+          .about_title {
+            font-size: 2.8rem;
+            &:before {
+              bottom: -1.8rem;
+              height: .7rem;
+            }
+          }
+          .about_text{
+              color: #696a99;
+              font-size: 2.3rem;
+          }
+        }
+        .service_title {
+          font-size: 2.8rem;
+          &:before {
+            bottom: -1.8rem;
+              height: .7rem;
+          }
+        }
+        .service_list{
+         .service_link{
+          .list_icon{
+              font-size: 2.6rem;
+          }
+          .service_text{
+              font-size: 2.6rem;
+          }
+          .ficons, .iicons, .licons{
+              color:#696a99;
+              font-size: 3rem;
+      
+              &:hover{
+                  color: orangered;
+              }
+          }   
+         }  
+        }
+      }
+      .footerContent{
+        .container{
+          .footerText{
+            font-size: 2.1rem;
+          }
+        }
+      } 
+}
+
+
+@media (min-width: 576px) and (max-width: 767px){
+    .footerSection {
+        .about_card {
+          .about_title {
+            font-size: 3.5rem;
+            &:before {
+              bottom: -1.8rem;
+              height: .7rem;
+            }
+          }
+          .about_text{
+              font-size: 2.8rem;
+          }
+        }
+        .service_title {
+            font-size: 3.5rem;
+        }
+        .service_list{
+         .service_link{
+          .list_icon{
+              font-size: 3rem;
+          }
+          .service_text{
+              font-size: 3rem;
+          }
+          .ficons, .iicons, .licons{
+              font-size: 3.7rem;
+          }   
+         }  
+        }
+      } 
+      .footerContent{
+        .container{
+          .footerText{
+            font-size: 2.5rem;
+          }
+        }
+      } 
+}
+
+
+@media (max-width: 575px){
+    .footerSection {
+        .about_card {
+          .about_title {
+            font-size: 4rem;
+            &:before {
+              bottom: -1.8rem;
+              width: 4rem;
+              height: .9rem;
+            }
+          }
+          .about_text{
+              font-size: 3.2rem;
+          }
+        }
+        .service_title {
+            font-size: 4rem;
+            &:before {
+                bottom: -1.8rem;
+                width: 4rem;
+                height: .9rem;
+              }
+        }
+        .service_list{
+         .service_link{
+          .list_icon{
+              font-size: 3.5rem;
+          }
+          .service_text{
+              font-size: 3.5rem;
+          }
+          .ficons, .iicons, .licons{
+              font-size: 4rem;
+          }   
+         }  
+        }
+      } 
+      .footerContent{
+        .container{
+          .footerText{
+            font-size: 2.9rem;
+          }
+        }
+      } 
+}

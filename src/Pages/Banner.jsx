@@ -14,10 +14,12 @@ const Banner = () => {
             <div className="card-body">
             <h1 className="card-title">We are your financial solution</h1>
            <div className="btnSection">
-           <button className="btn btn-primary">
+          <div className="bannerbtn">
+          <button className="btn btn-primary">
                   Contact Us
-                  <span className="btn_icon"><ArrowRightIcon className="ms-2 rightIcon"/></span>
-                  </button>
+                  <span><ArrowRightIcon className="ms-2 rightIcon"/></span>
+            </button>
+          </div>
            </div>
             </div>
       </div>

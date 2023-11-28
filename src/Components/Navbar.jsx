@@ -24,7 +24,7 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto mt-lg-0 mt-3">
               <li className="nav-item">
-                <Link className="nav-link" aria-current="page">
+                <Link to={'/'} className="nav-link" aria-current="page">
                   HOME
                 </Link>
               </li>
@@ -32,7 +32,7 @@ const Navbar = () => {
                 <Link to={'/about'} className="nav-link">ABOUT US</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link">SERVICES</Link>
+                <Link to={'/services'} className="nav-link">SERVICES</Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link">OUR TEAM</Link>

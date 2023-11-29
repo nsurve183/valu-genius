@@ -1,0 +1,207 @@
+
+
+.teamData{
+    padding: 5rem 0;
+    .team_title{
+        font-size: 3.8rem;
+        font-weight: bold;
+        color: #071c45;
+        position: relative;
+        margin-bottom: 4rem;
+        &::before{
+            content: '';
+            position: absolute;
+            bottom: -2rem;
+            left: 0;
+            width: 3rem;
+            height: .6rem;
+            background-color: orangered;
+        }
+    }
+    .card{
+        padding: 3rem 3.9rem 3rem 3rem;
+        .card-body{
+            padding: 0;
+           .memberName{
+            font-size: 2.5rem;
+            font-family: 'Mulish', 'sans-serif';
+            margin-bottom: 1.5rem;
+           }
+           .memberDesignation{
+            font-size: 2rem;
+            font-family: 'Mulish', 'sans-serif';
+            margin-bottom: 1.5rem;
+           }
+           .education{
+            font-size: 1.7rem;
+           }
+           .data{
+            .icons{
+                color: orangered;
+                font-size: 1.8rem;
+            }
+            .number{                
+                .mobile_num{
+                    font-size: 1.6rem;
+                    font-weight: 500;
+                    &:hover{
+                        color: orange;
+                    }
+                }
+            }
+           }
+           .member_info, .member_info1{
+            font-size: 1.7rem;
+            padding-top: 2rem;
+            margin-bottom: 0;
+        }
+        .member_info1{
+            padding-top: 0;
+        }
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .teamData{
+        padding: 5rem 0;
+        .team_title{
+            font-size: 4.1rem;
+            margin-bottom: 4rem;
+            &::before{
+                bottom: -2rem;
+                width: 3rem;
+                height: .7rem;
+            }
+        }
+        .card{
+            .card-body{
+               .memberName{
+                font-size: 3.3rem;
+                margin-bottom: 2rem;
+               }
+               .memberDesignation{
+                font-size: 2.8rem;
+                margin-bottom: 2rem;
+               }
+               .education{
+                font-size: 2.3rem;
+                margin-bottom: 2rem;
+               }
+               .data{
+                .icons{
+                    font-size: 2.5rem;
+                }
+                .number{                
+                    .mobile_num{
+                        font-size: 2.3rem;
+                    }
+                }
+               }
+               .member_info, .member_info1{
+                font-size: 2.3rem;
+                padding-top: 2rem;
+            }
+            .member_info1{
+                padding-top: 0;
+            }
+            }
+        }
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+    .teamData{
+        padding: 5rem 0;
+        .team_title{
+            font-size: 4.1rem;
+            margin-bottom: 4rem;
+            &::before{
+                bottom: -2rem;
+                width: 3rem;
+                height: .7rem;
+            }
+        }
+        .card{
+            .card-body{
+               .memberName{
+                font-size: 4rem;
+                margin-bottom: 2.5rem;
+               }
+               .memberDesignation{
+                font-size: 3.3rem;
+                margin-bottom: 2.5rem;
+               }
+               .education{
+                font-size: 2.8rem;
+                margin-bottom: 2.5rem;
+               }
+               .data{
+                .icons{
+                    font-size: 2.9rem;
+                }
+                .number{                
+                    .mobile_num{
+                        font-size: 2.8rem;
+                    }
+                }
+               }
+               .member_info, .member_info1{
+                font-size: 3rem;
+                padding-top: 2.5rem;
+            }
+            .member_info1{
+                padding-top: 0;
+            }
+            }
+        }
+    }
+}
+
+@media (max-width: 575px){
+    .teamData{
+        padding: 5rem 3rem;
+        .team_title{
+            font-size: 5rem;
+            margin-bottom: 7rem;
+            &::before{
+                bottom: -3rem;
+                width: 4rem;
+                height: .9rem;
+            }
+        }
+        .card{
+            .card-body{
+               .memberName{
+                font-size: 5rem;
+                margin-bottom: 3rem;
+               }
+               .memberDesignation{
+                font-size: 4rem;
+                margin-bottom: 3rem;
+               }
+               .education{
+                font-size: 3.7rem;
+                margin-bottom: 3rem;
+               }
+               .data{
+                .icons{
+                    font-size: 3.9rem;
+                }
+                .number{                
+                    .mobile_num{
+                        font-size: 3.7rem;
+                    }
+                }
+               }
+               .member_info, .member_info1{
+                font-size: 3.8rem;
+                padding-top: 2.5rem;
+            }
+            .member_info1{
+                padding-top: 0;
+            }
+            }
+        }
+    } 
+}

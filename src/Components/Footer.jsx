@@ -9,14 +9,23 @@ import {
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import { useLocation } from "react-router-dom";
 
 const Footer = () => {
     const date = new Date();
     const year = date.getFullYear()
     console.log(year)
+
+    const location = useLocation()
   return (
     <>
-      <div className="footerSection">
+        {location.pathname === '/blog' ?   <div className="blogfooterContent d-flex justify-content-center align-items-center">
+        <div className="container">
+          <div className="row">
+              <h4 className="blogfooterText">&#169; {year}  ValuGenius Advisor LLP | Managed by WebKaam Computing Technology</h4>
+          </div>
+        </div>
+      </div> :  <div className="footerSection">
         <div className="container">
           <div className="row">
             <div className="col-lg-3 col-12 mb-lg-0 mb-5">
@@ -176,14 +185,15 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div className="footerContent d-flex justify-content-center align-items-center">
+      </div>}
+     
+      {location.pathname === '/blog' ? '' : <div className="footerContent d-flex justify-content-center align-items-center">
         <div className="container">
           <div className="row">
               <h4 className="footerText">&#169; {year} ValuGenius Advisors LLP, All rights reserved.</h4>
           </div>
         </div>
-      </div>
+      </div>}
     </>
   );
 };

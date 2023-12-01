@@ -50,7 +50,7 @@ const Welcome = () => {
                 <div className="col-10">
                   <div className="card-body">
                     <h4 className="card-title">{val.title}</h4>
-                    <p className="card-text">{val.para}</p>
+                    <div className="card-text">{val.para}</div>
                   </div>
                 </div>
               </div>

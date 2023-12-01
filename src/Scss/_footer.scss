@@ -1,5 +1,4 @@
 .footerSection {
-  margin-top: 5rem;
   padding: 4rem 5rem;
   background-color: #071c45;
   .about_card {
@@ -81,6 +80,17 @@
     }
   }
 }
+.blogfooterContent{
+  background-color: rgba(1, 1, 52,1);
+  padding: 1.3rem 5rem;
+  .container{
+    .blogfooterText{
+      font-size: 1.6rem;
+      color: #a1a1b3;
+    }
+  }
+}
+
 
 
 @media (min-width: 768px) and (max-width: 991px){
@@ -131,7 +141,14 @@
             font-size: 2.1rem;
           }
         }
-      } 
+      }
+      .blogfooterContent{
+        .container{
+          .blogfooterText{
+            font-size: 2.1rem;
+          }
+        }
+      }
 }
 
 
@@ -173,6 +190,13 @@
           }
         }
       } 
+      .blogfooterContent{
+        .container{
+          .blogfooterText{
+            font-size: 2.5rem;
+          }
+        }
+      }
 }
 
 
@@ -220,4 +244,11 @@
           }
         }
       } 
+      .blogfooterContent{
+        .container{
+          .blogfooterText{
+            font-size: 2.9rem;
+          }
+        }
+      }
 }

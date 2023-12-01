@@ -55,7 +55,7 @@ const TeamData = () => {
                       <img src={val.img} className='img-fluid' alt="" />
                   </div>
                   <div className="col-md-9 col-12">
-                      <div className="card-body">
+                      <div className="card-body member_data_section">
                         <h1 className="memberName">{val.menubar_name}</h1>
                         <div className='memberDesignation'>{val.designation}</div>
                         <p className='education'>{val.education}</p>

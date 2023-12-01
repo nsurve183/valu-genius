@@ -20,7 +20,7 @@
     }
     .card{
         padding: 3rem 3.9rem 3rem 3rem;
-        .card-body{
+       .member_data_section{
             padding: 0;
            .memberName{
             font-size: 2.5rem;
@@ -34,6 +34,7 @@
            }
            .education{
             font-size: 1.7rem;
+            margin-bottom: 1.5rem;
            }
            .data{
             .icons{
@@ -75,7 +76,7 @@
             }
         }
         .card{
-            .card-body{
+           .member_data_section{
                .memberName{
                 font-size: 3.3rem;
                 margin-bottom: 2rem;
@@ -123,7 +124,7 @@
             }
         }
         .card{
-            .card-body{
+           .member_data_section{
                .memberName{
                 font-size: 4rem;
                 margin-bottom: 2.5rem;
@@ -171,7 +172,7 @@
             }
         }
         .card{
-            .card-body{
+           .member_data_section{
                .memberName{
                 font-size: 5rem;
                 margin-bottom: 3rem;

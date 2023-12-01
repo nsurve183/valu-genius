@@ -44,6 +44,9 @@
     opacity: 1;
   }
 }
+.bannerSection .carousel .carousel-inner .carousel-item .card .card-body .bannerbtn {
+  display: inline-block;
+}
 .bannerSection .carousel .carousel-inner .carousel-item .card .card-body .bannerbtn .btn-primary {
   padding: 0.7rem 2rem;
   font-size: 1.7rem;

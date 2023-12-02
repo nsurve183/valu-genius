@@ -1,0 +1,17 @@
+
+
+.contactmap{
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    .map{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 1rem;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        border: none;
+    }
+}

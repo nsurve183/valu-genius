@@ -9,6 +9,7 @@ import AboutHome from "./Pages/About/AboutHome.jsx"
 import ServiceHome from "./Pages/Service/ServiceHome.jsx"
 import TeamHome from "./Pages/OurTeam/TeamHome.jsx"
 import BlogHome from "./Pages/Blog/BlogHome.jsx"
+import ContactHome from "./Pages/ContactUs/ContactHome.jsx"
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route exact path="services" Component={ServiceHome} />
         <Route exact path="team" Component={TeamHome} />
         <Route exact path="/blog" Component={BlogHome}/>
+        <Route exact path="/contactus" Component={ContactHome}/>
         </Routes>
         <Footer />
       </Router>

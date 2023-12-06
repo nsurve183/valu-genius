@@ -1,6 +1,7 @@
 import React from "react";
 import "../Scss/Banner/banner.css";
 import ArrowRightIcon from "@mui/icons-material/ArrowRight";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
@@ -23,12 +24,12 @@ const Banner = () => {
                   <h1 className="card-title">We are your financial solution</h1>
                   <div className="btnSection">
                     <div className="bannerbtn">
-                      <button className="btn btn-primary">
+                      <Link to={'/contactus'} className="btn btn-primary">
                         Contact Us
                         <span>
                           <ArrowRightIcon className="ms-2 rightIcon" />
                         </span>
-                      </button>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -47,12 +48,12 @@ const Banner = () => {
                   </h1>
                   <div className="btnSection">
                     <div className="bannerbtn">
-                      <button className="btn btn-primary">
+                      <Link to={'/contactus'} className="btn btn-primary">
                         Contact Us
                         <span className="btn_icon">
                           <ArrowRightIcon className="ms-2 rightIcon" />
                         </span>
-                      </button>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -69,12 +70,12 @@ const Banner = () => {
                   <h1 className="card-title">Be Informed. Be Smart. Be Sure</h1>
                   <div className="btnSection">
                     <div className="bannerbtn">
-                      <button className="btn btn-primary">
+                      <Link  to={'/contactus'}className="btn btn-primary">
                         Contact Us
                         <span className="btn_icon">
                           <ArrowRightIcon className="ms-2 rightIcon" />
                         </span>
-                      </button>
+                      </Link>
                     </div>
                   </div>
                 </div>

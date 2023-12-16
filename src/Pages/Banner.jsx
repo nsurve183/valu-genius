@@ -13,7 +13,7 @@ const Banner = () => {
           data-bs-ride="carousel"
         >
           <div className="carousel-inner">
-            <div className="carousel-item active" data-bs-interval="100000">
+            <div className="carousel-item active" data-bs-interval="10000">
               <img
                 src="../../public/banner-1.webp"
                 className="d-block w-100 bannerImg"

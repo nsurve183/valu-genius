@@ -10,6 +10,7 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     const date = new Date();
@@ -41,16 +42,17 @@ const Footer = () => {
             <div className="col-lg-3 col-12 mb-lg-0 mb-5">
               <div className="service_title">SERVICES</div>
               <ul className="service_list">
-                <li className="service_link">
-                  <div>
+               <Link className="text-decoration-none" to={"/business-valuation"}>
+               <li className="service_link">
                     <FontAwesomeIcon
                       icon={faAngleRight}
                       className="list_icon me-3"
                     />
-                  </div>
                   <div className="service_text"> Business Valuation</div>
                 </li>
-                <li className="service_link">
+               </Link>
+               <Link className="text-decoration-none" to={'/RBI-valuations'}>
+               <li className="service_link">
                   <div>
                     <FontAwesomeIcon
                       icon={faAngleRight}
@@ -59,7 +61,9 @@ const Footer = () => {
                   </div>
                   <div className="service_text"> RBI Valuations</div>
                 </li>
-                <li className="service_link">
+               </Link>
+               <Link className="text-decoration-none" to={'/ESOP-valuations'}>
+               <li className="service_link">
                   <div>
                     <FontAwesomeIcon
                       icon={faAngleRight}
@@ -68,7 +72,9 @@ const Footer = () => {
                   </div>
                   <div className="service_text"> ESOP Valuations</div>
                 </li>
-                <li className="service_link">
+               </Link>
+               <Link className="text-decoration-none" to={'/Ind-AS-Valuations'}>
+               <li className="service_link">
                   <div>
                     <FontAwesomeIcon
                       icon={faAngleRight}
@@ -77,7 +83,9 @@ const Footer = () => {
                   </div>
                   <div className="service_text"> Ind As Valuations</div>
                 </li>
-                <li className="service_link">
+               </Link>
+               <Link className="text-decoration-none" to={'/Intangible-Assets-Valuations'}>
+               <li className="service_link">
                   <div>
                     <FontAwesomeIcon
                       icon={faAngleRight}
@@ -86,7 +94,9 @@ const Footer = () => {
                   </div>
                   <div className="service_text">Intangible assets Valuations</div>
                 </li>
-                <li className="service_link">
+               </Link>
+               <Link className="text-decoration-none" to={'/Fairness-Opinion-Valuations'}>
+               <li className="service_link">
                   <div>
                     <FontAwesomeIcon
                       icon={faAngleRight}
@@ -95,12 +105,13 @@ const Footer = () => {
                   </div>
                   <div className="service_text"> Fairness Opinion Valuations</div>
                 </li>
-
+               </Link>
               </ul>
             </div>
             <div className="col-lg-3 col-12 mb-lg-0 mb-5">
               <div className="service_title">Links</div>
               <ul className="service_list">
+              <Link className="text-decoration-none" to={'/'}>
               <li className="service_link">
                   <div>
                     <FontAwesomeIcon
@@ -110,7 +121,9 @@ const Footer = () => {
                   </div>
                   <div className="service_text"> Home</div>
                 </li>
-                <li className="service_link">
+              </Link>
+              <Link className="text-decoration-none" to={'/about'}>
+              <li className="service_link">
                   <div>
                     <FontAwesomeIcon
                       icon={faAngleRight}
@@ -119,7 +132,9 @@ const Footer = () => {
                   </div>
                   <div className="service_text">About Us</div>
                 </li>
-                <li className="service_link">
+              </Link>
+              <Link className="text-decoration-none" to={'/services'}>
+              <li className="service_link">
                   <div>
                     <FontAwesomeIcon
                       icon={faAngleRight}
@@ -128,7 +143,9 @@ const Footer = () => {
                   </div>
                   <div className="service_text">Services</div>
                 </li>
-                <li className="service_link">
+              </Link>
+              <Link className="text-decoration-none" to={'/team'}>
+              <li className="service_link">
                   <div>
                     <FontAwesomeIcon
                       icon={faAngleRight}
@@ -137,7 +154,9 @@ const Footer = () => {
                   </div>
                   <div className="service_text">Our Team</div>
                 </li>
-                <li className="service_link">
+              </Link>
+              <Link className="text-decoration-none" to={'/blog'}>
+              <li className="service_link">
                   <div>
                     <FontAwesomeIcon
                       icon={faAngleRight}
@@ -146,7 +165,9 @@ const Footer = () => {
                   </div>
                   <div className="service_text">Blog</div>
                 </li>
-                <li className="service_link">
+              </Link>
+              <Link className="text-decoration-none" to={'/contactus'}>
+              <li className="service_link">
                   <div>
                     <FontAwesomeIcon
                       icon={faAngleRight}
@@ -155,6 +176,7 @@ const Footer = () => {
                   </div>
                   <div className="service_text">Contact Us</div>
                 </li>
+              </Link>
               </ul>
             </div>
             <div className="col-lg-3 col-12 mb-lg-0 mb-5">

@@ -14,19 +14,19 @@ const Welcome = () => {
       img: '../../public/service2.webp',
       title: 'Mergers And Amalgamation Valuations',
       para:  'Valuation is essential for mergers and acquisitions as it help determines the fair...',
-      link: '/business-valution'
+      link: '/mergers-valuation'
     },
     {
       img: '../../public/service3.webp',
       title: 'RBI Valuations',
       para:  'Under the Foregin Exchange Management Act(FEMA) in india valuations...',
-      link: '/business-valution'
+      link: '/RBI-valuations'
     },
     {
       img: '../../public/service4.webp',
       title: 'ESOP Valuations',
       para:  'Valuation of Employee Stock Ownership Plans (ESOPs) invloles determining the fair...',
-      link: '/business-valution'
+      link: '/ESOP-valuations'
     },
     
 

@@ -20,12 +20,20 @@ function App() {
         <Navbar />
         <Routes>
         <Route exact path="/" Component={Home} />
-        <Route exact path="about" Component={AboutHome} />
-        <Route exact path="services" Component={ServiceHome} />
-        <Route exact path="team" Component={TeamHome} />
+        <Route exact path="/about" Component={AboutHome} />
+        <Route exact path="/services" Component={ServiceHome} />
+        <Route exact path="/team" Component={TeamHome} />
         <Route exact path="/blog" Component={BlogHome}/>
         <Route exact path="/contactus" Component={ContactHome}/>
         <Route exact path="/business-valuation" Component={Business}/>
+        <Route exact path = '/mergers-valuation' Component={Business}/>
+        <Route exact path = '/RBI-valuations' Component={Business}/>
+        <Route exact path = '/ESOP-valuations' Component={Business}/>
+        <Route exact path = '/Why-Valuation-Services' Component={Business}/>
+        <Route exact path = '/Ind-AS-Valuations' Component={Business}/>
+        <Route exact path = '/covertable-instruments-valuations' Component={Business}/>
+        <Route exact path = '/Intangible-Assets-Valuations' Component={Business}/>
+        <Route exact path = '/Fairness-Opinion-Valuations' Component={Business}/>
         </Routes>
         <Footer />
       </Router>

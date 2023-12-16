@@ -44,17 +44,17 @@
     list-style: none;
     padding: 0 2rem 0 0;
    .service_link{
+    cursor: pointer;
     display: flex;
-    align-items: first baseline;
+    align-items: baseline;
+    margin-bottom: 1.8rem;
     .list_icon{
-        font-size: 1.8rem;
+        font-size: 1.7rem;
         color: orangered;
     }
     .service_text{
         font-size: 1.8rem;
         color: #696a99;
-        margin-bottom: 2rem;
-
         &:hover{
             color: orangered;
         }
